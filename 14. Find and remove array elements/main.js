@@ -8,7 +8,7 @@ function findAndRemove(arr) {
   
   // return elements that do not match (indexOf returns -1)
   return arr.filter(function(element) {
-    return params.indexOf(element) < 0;
+    return elementsArr.indexOf(element) < 0;
   });
 }
 
