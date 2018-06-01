@@ -1,11 +1,9 @@
 function findAndRemove(arr) {
-  var targetArr = arguments[0];
   var elementsArr = [];
 
   // Create an array of all elements to be removed
   for (var i = 1; i < arguments.length; i++)
     elementsArr.push(arguments[i]);
-  
   // return elements that do not match (indexOf returns -1)
   return arr.filter(function(element) {
     return elementsArr.indexOf(element) < 0;
